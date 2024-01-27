@@ -15,13 +15,13 @@ public class CookYourLasagna {
         // TODO: define the 'totalTimeInMinutes()' method
     }
 
-    public class LasagnaSoltion {
+    public class LasagnaSolution {
         public static int expectedMinutesInOven() {
             return 40;
         }
 
         public static int remainingMinutesInOven(int minutes) {
-            return LasagnaSoltion.expectedMinutesInOven() - minutes;
+            return LasagnaSolution.expectedMinutesInOven() - minutes;
         }
 
         public static int preparationTimeInMinutes(int layers) {
